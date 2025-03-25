@@ -1,0 +1,52 @@
+# Ignore all .COM build files
+SCRNSAVE.COM
+
+# Ignore compiled BASIC files
+*.OBJ
+*.EXE
+*.LIB
+*.QLB
+*.HLP
+
+# Ignore backup files and temporary files
+*.BAK
+*.TMP
+
+# Ignore README.md if it's only for internal documentation (remove this line if you want to keep it)
+# README.md
+
+# Ignore QB11 folder and its contents
+/qb11/
+
+# Ignore QB45 folder and its contents
+/qb45/
+
+# Ignore QBX folder and its contents
+/qbx/
+
+# Ignore BASIC2DOSBox folder and its contents
+/BASIC2DOSBox/
+
+# Ignore DOSBox folder and its contents
+/DOSBox-0.74-3/
+
+# Ignore config files for DOSBox setups
+/_config/
+
+# Ignore shortcuts for quick access to DOSBox setups
+/_shortcut/
+
+# Ignore floppy disk images or other mounting files
+/_floppy/
+
+# Ignore the output files in _source if used for builds
+/_source/
+
+# Ignore debug tools and utilities
+debug.exe
+basic2dos.exe
+
+# Ignore system files from Windows
+Thumbs.db
+.DS_Store
+desktop.ini
