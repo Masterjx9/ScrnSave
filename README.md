@@ -29,12 +29,12 @@ mount C C:\Users\YourName\Documents\ScrnSave  # Hit enter to create the mounted 
 C: # Hit enter to change to the mounted drive 
 ```
 4. Run QBASIC 11 `QBASIC`. You may have to move to the directory where qb11 exists or move qb11 to the directory where you have the files.
-<img src="images/dosbox1.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
+<img src="images/Dosbox1.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
 
 5. Once in QBASIC, load the file you want to run. For example, if you want to run `SCRNSAVE_Builder.BAS`, you would type `LOAD "SCRNSAVE_Builder.BAS"` and hit enter.
-<img src="images/dosbox2.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
+<img src="images/Dosbox2.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
 6. Once the file is loaded, you can run it by typing `RUN` and hitting enter. Or press F5 to run the program.
-<img src="images/dosbox3.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
+<img src="images/Dosbox3.png" alt="DOSBox" width="400" style="text-align: center; margin: 0 auto; display: block;">
 
 ## Helpful Links
 - [John Socha - Nieuwe Instituut](https://nieuweinstituut.nl/en/projects/sleep-mode/john-socha)  
