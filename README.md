@@ -5,7 +5,6 @@ This code was built by John Socha and published on Softalk for the IBM Personal 
 
 [![ScrnSave Demo](https://img.youtube.com/vi/-aGhOf6hYGQ/0.jpg)](https://www.youtube.com/watch?v=-aGhOf6hYGQ)
 
-<img src="https://user-images.githubusercontent.com/your-uploaded-image-path/softalk_cover.png" alt="Softalk Cover - December 1983" width="400"/>
 </div>
 
 <img src="images/cover.jpg" alt="SOFTALK_COVER" width="600" style="text-align: center; margin: 0 auto; display: block;">
