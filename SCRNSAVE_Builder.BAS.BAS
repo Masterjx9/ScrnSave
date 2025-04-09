@@ -1,5 +1,5 @@
 10 DIM CHECK(39)
-20 FOR I = 1 TO 39: CHECK(I) = 0 : NEXT I
+20 FOR I = 1 TO 39: CHECK(I) = 0: NEXT I
 30 PRINT "Checking";
 40 FOR I = 1 TO 39
 50      FOR J = 1 TO 8
@@ -13,18 +13,18 @@
 130 FOR I = 1 TO 39
 140     READ CHECK
 158     LINECHECK = LINECHECK XOR CHECK
-160     IF CHECK(I) <> CHECK THEN PRINT "Data in Line";1000+10*(I-1);"may be bad."
+160     IF CHECK(I) <> CHECK THEN PRINT "Data in Line"; 1000 + 10 * (I - 1); "may be bad."
 170 NEXT I
 180 IF LINECHECK <> 16 THEN PRINT "Data bad in lines 2010-2050."
-190 OPEN "scrnsave.com" AS #1 LEN=1
+190 OPEN "scrnsave.com" FOR RANDOM AS #1 LEN = 1
 200 PRINT "Writing..."
 200.5 D$ = STRING$(1, " ")
-' 210 FIELD #1, 1 AS D$
-210 FIELD #1,1 AS BYTES ' This is the original code
+' 210 FIELD #1, 1 AS D$ ' This is when testing on dosbox
+210 FIELD #1, 1 AS BYTES' This is the original code
 220 RESTORE
 230 FOR I = 1 TO 310
-240     READ BYTE : LSET BYTES = CHR$(BYTE) : PUT #1 ' This is the original code
-' 240     READ BYTE : D$ = CHR$(BYTE) : PUT #1 ' This is when testing on dosbox
+240     READ BYTE: LSET BYTES = CHR$(BYTE): PUT #1   ' This is the original code
+' 240     READ BYTE: D$ = CHR$(BYTE): PUT #1   ' This is when testing on dosbox
 250 NEXT I
 260 CLOSE
 270 PRINT "SCRNSAVE.COM created"
@@ -74,3 +74,4 @@
 2030 DATA 50, 195, 90, 195, 207, 243, 123, 225
 2040 DATA 166, 172, 63, 45, 34, 83, 36, 34
 2050 DATA 213, 68, 74, 232, 65, 253, 121
+
